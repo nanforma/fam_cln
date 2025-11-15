@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo {
   float: left;
-  margin-top: -10px;
+  margin-top: -6px;
 }
 
 #header #logo h1 {
@@ -865,5 +865,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
 
 
