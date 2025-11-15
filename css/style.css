@@ -808,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Map */
 #contact iframe {
-  width: 80%;
+  width: 100%;
   height: 280px;
   border: 0;
   display: block;
@@ -865,4 +865,5 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
 
