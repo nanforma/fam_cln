@@ -785,6 +785,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-decoration: none;
   margin-bottom: 25px;
   transition: color 0.3s;
+  pointer-events: none;
 }
 
 #contact .info i {
@@ -792,6 +793,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #222;
   margin-right: 15px;
   flex-shrink: 0;
+  pointer-events: auto;
 }
 
 #contact .info p {
@@ -799,6 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   line-height: 28px;
   transition: text-decoration 0.3s;
+  pointer-events: auto;
 }
 
 #contact .info a:hover p {
@@ -865,6 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
 
 
 
