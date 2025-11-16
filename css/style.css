@@ -5,7 +5,8 @@ html body {
   background: #fdc106;
   min-height: 100vh;
   margin: 0;
-  overflow-x: hidden;
+  min-width: 420px; /* стандартна мінімальна мобільна ширина */
+  overflow-x: auto; /* щоб не ламався адаптив */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -884,3 +885,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
