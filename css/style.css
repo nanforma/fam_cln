@@ -564,6 +564,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .icon-box {
   background: #fdc106;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   padding: 0 0 30px 0;
 }
 
@@ -572,11 +575,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fdc106;
   width: 64px;
   height: 64px;
+  min-width: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
+  flex-shrink: 0;
   border-radius: 50%;
   border: 2px solid #222;
 }
@@ -585,6 +589,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #222;
   font-size: 24px;
 }
+#about .about-container .icon-box .text {
+  display: flex;
+  flex-direction: column;
+}
 
 #about .about-container .icon-box .title {
   margin-left: 80px;
@@ -592,6 +600,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
   font-size: 18px;
   text-transform: uppercase;
+  margin-left: 0 !important;
 }
 
 #about .about-container .icon-box .title a {
@@ -603,6 +612,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 22px;
   font-size: 14px;
   color: #333;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 768px) {
+  #about .about-container .icon-box .text {
+    margin-top: -12px;
+  }
 }
 
 
@@ -868,9 +884,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
-
-
-
-
-
-
